@@ -1,0 +1,19 @@
+# Navega a la carpeta del proyecto
+cd "ruta/a/la/carpeta/mi sitio web/mi-sitio-web/"
+
+# Inicializa un repositorio Git
+git init
+
+# Añade todos los archivos
+git add .
+
+# Primer commit
+git commit -m "Primer commit: Sitio web con imágenes"
+
+# Conecta con tu repositorio en GitHub
+git remote add origin https://github.com/Alejito1702/once-inicial.git
+
+# Crea la rama principal y sube los archivos
+git branch -M main
+git push -u origin main
+
